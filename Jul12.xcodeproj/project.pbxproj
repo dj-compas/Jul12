@@ -21,6 +21,8 @@
 		C6CB955015ACA6C50012E768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CB954F15ACA6C50012E768 /* main.m */; };
 		C6CB955415ACA6C50012E768 /* Jul12AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CB955315ACA6C50012E768 /* Jul12AppDelegate.m */; };
 		C6FD559715AEAB7400005356 /* Robert Palmer short.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C6FD559615AEAB7400005356 /* Robert Palmer short.m4v */; };
+		C6FD559915AEB01B00005356 /* volume_max.png in Resources */ = {isa = PBXBuildFile; fileRef = C6FD559815AEB01B00005356 /* volume_max.png */; };
+		C6FD559B15AEB0C500005356 /* volume_min.png in Resources */ = {isa = PBXBuildFile; fileRef = C6FD559A15AEB0C500005356 /* volume_min.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		C6CB955215ACA6C50012E768 /* Jul12AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jul12AppDelegate.h; sourceTree = "<group>"; };
 		C6CB955315ACA6C50012E768 /* Jul12AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jul12AppDelegate.m; sourceTree = "<group>"; };
 		C6FD559615AEAB7400005356 /* Robert Palmer short.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Robert Palmer short.m4v"; sourceTree = "<group>"; };
+		C6FD559815AEB01B00005356 /* volume_max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume_max.png; sourceTree = "<group>"; };
+		C6FD559A15AEB0C500005356 /* volume_min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume_min.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 		C6CB953415ACA6C40012E768 = {
 			isa = PBXGroup;
 			children = (
+				C6FD559A15AEB0C500005356 /* volume_min.png */,
+				C6FD559815AEB01B00005356 /* volume_max.png */,
 				C6FD559615AEAB7400005356 /* Robert Palmer short.m4v */,
 				C64B03DD15AE892B002FE9DB /* Demarkus Lewis - Hustler.mp3 */,
 				C64B03DB15AE8917002FE9DB /* Random Movement - She Dont Get It (sample).mp3 */,
@@ -176,6 +182,8 @@
 				C64B03DC15AE8917002FE9DB /* Random Movement - She Dont Get It (sample).mp3 in Resources */,
 				C64B03DE15AE892B002FE9DB /* Demarkus Lewis - Hustler.mp3 in Resources */,
 				C6FD559715AEAB7400005356 /* Robert Palmer short.m4v in Resources */,
+				C6FD559915AEB01B00005356 /* volume_max.png in Resources */,
+				C6FD559B15AEB0C500005356 /* volume_min.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

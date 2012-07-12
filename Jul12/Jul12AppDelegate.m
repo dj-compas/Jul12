@@ -26,7 +26,7 @@
 	masterView = [[MasterView alloc] initWithFrame:applicationFrame];
 	
 	// for movie player
-	movieArray = [NSArray arrayWithObjects:   @"NI - Traktor Pro 2 teaser short", @"Robert Palmer short", nil];
+	movieArray = [NSArray arrayWithObjects: @"Robert Palmer short", @"NI - Traktor Pro 2 teaser short", nil];
 	NSLog(@"awesomeness? %@", awesomeness);
 	NSURL *url = [self getURLForIndex:0];
 	
@@ -55,11 +55,11 @@
 {
 	if (switchControl.isOn) {
 		[switchControl.superview performSelector:@selector(changeLabelColorTo:) withObject:[UIColor whiteColor]];
-		movieController.contentURL = [self getURLForIndex:0];
+		movieController.contentURL = [self getURLForIndex:1];
 	}
 	else {
 		[switchControl.superview performSelector:@selector(changeLabelColorTo:) withObject:[UIColor blackColor]];
-		movieController.contentURL = [self getURLForIndex:1];
+		movieController.contentURL = [self getURLForIndex:0];
 	}
 	
 	NSLog(@"movie url: %@", movieController.contentURL);

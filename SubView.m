@@ -137,6 +137,8 @@
 	volumeSlider = [[UISlider alloc] initWithFrame:CGRectMake(sx, sy, sw, sh)];
 	volumeSlider.minimumValue = 0;
 	volumeSlider.maximumValue = 1;
+	volumeSlider.minimumValueImage = [UIImage imageNamed:@"volume_min.png"];
+	volumeSlider.maximumValueImage = [UIImage imageNamed:@"volume_max.png"];
 	
 	volumeSlider.value = musicPlayer.volume;
 	[volumeSlider addTarget:self action:@selector(changeVolume) forControlEvents:UIControlEventValueChanged];
