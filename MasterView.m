@@ -63,6 +63,12 @@
 	SubView *old = [views objectAtIndex:viewIndex];
 	SubView *new = [views objectAtIndex:currentPage];
 	
+	// if music is playing in subview3, stop it
+	if (viewIndex == [views	count]-1)
+	{
+		[old performSelector:@selector(killMusic)];
+	}
+	
 	[SubView transitionFromView:old
 						toView:new
 					  duration:.5

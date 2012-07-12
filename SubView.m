@@ -124,6 +124,9 @@
 	musicArray = [NSArray arrayWithObjects:@"Demarkus Lewis - Hustler", @"Random Movement - She Dont Get It (sample)", nil];
 	NSURL *url = [self getURLForIndex:[picker selectedRowInComponent:0]];
 	musicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+	
+	// without setting the musicPlayer delegate to self, the audioPlayerDidFinishPlaying method will NOT be recognized
+	musicPlayer.delegate = self;
 	[musicPlayer prepareToPlay];
 	
 	// =================================================================
@@ -194,18 +197,22 @@
 	[segmentedControl setEnabled:NO forSegmentAtIndex:0];
 }
 
+-(void)killMusic
+{
+	if(musicPlayer.currentTime > 0)
+	{
+		[musicPlayer stop];
+		[self resetSegmentedControl];
+	}
+}
+
 // ===============================================================
 // ===============================================================
 // mandatory methods needed for picker's delegate, which is self
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
-	if(musicPlayer.currentTime > 0)
-	{
-		NSLog(@"music is playing, stop it...");
-		[musicPlayer stop];
-		[self resetSegmentedControl];
-	}
+	[self killMusic];
 	
 	musicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[self getURLForIndex:row] error:nil];
 	[self changeVolume];
@@ -234,7 +241,7 @@
 
 -(void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
 {
-	
+	[self resetSegmentedControl];
 }
 
 @end
