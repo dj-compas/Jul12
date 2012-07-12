@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C64B03B815AE1120002FE9DB /* MasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B03B715AE1120002FE9DB /* MasterView.m */; };
+		C64B03BC15AE1940002FE9DB /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B03BB15AE1940002FE9DB /* SubView.m */; };
+		C64B03C215AE366A002FE9DB /* NI - Traktor Pro 2 teaser short.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C64B03C115AE366A002FE9DB /* NI - Traktor Pro 2 teaser short.m4v */; };
+		C64B03C415AE36CA002FE9DB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64B03C315AE36CA002FE9DB /* MediaPlayer.framework */; };
+		C64B03DA15AE81E0002FE9DB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64B03D915AE81E0002FE9DB /* AVFoundation.framework */; };
+		C64B03DC15AE8917002FE9DB /* Random Movement - She Dont Get It (sample).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C64B03DB15AE8917002FE9DB /* Random Movement - She Dont Get It (sample).mp3 */; };
+		C64B03DE15AE892B002FE9DB /* Demarkus Lewis - Hustler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C64B03DD15AE892B002FE9DB /* Demarkus Lewis - Hustler.mp3 */; };
+		C6CB954415ACA6C50012E768 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CB954315ACA6C50012E768 /* UIKit.framework */; };
+		C6CB954615ACA6C50012E768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CB954515ACA6C50012E768 /* Foundation.framework */; };
+		C6CB954815ACA6C50012E768 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CB954715ACA6C50012E768 /* CoreGraphics.framework */; };
+		C6CB954E15ACA6C50012E768 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6CB954C15ACA6C50012E768 /* InfoPlist.strings */; };
+		C6CB955015ACA6C50012E768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CB954F15ACA6C50012E768 /* main.m */; };
+		C6CB955415ACA6C50012E768 /* Jul12AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CB955315ACA6C50012E768 /* Jul12AppDelegate.m */; };
+		C6FD559715AEAB7400005356 /* Robert Palmer short.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C6FD559615AEAB7400005356 /* Robert Palmer short.m4v */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C64B03B615AE1120002FE9DB /* MasterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterView.h; sourceTree = "<group>"; };
+		C64B03B715AE1120002FE9DB /* MasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterView.m; sourceTree = "<group>"; };
+		C64B03BA15AE1940002FE9DB /* SubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubView.h; sourceTree = "<group>"; };
+		C64B03BB15AE1940002FE9DB /* SubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubView.m; sourceTree = "<group>"; };
+		C64B03C115AE366A002FE9DB /* NI - Traktor Pro 2 teaser short.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NI - Traktor Pro 2 teaser short.m4v"; sourceTree = "<group>"; };
+		C64B03C315AE36CA002FE9DB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C64B03D915AE81E0002FE9DB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C64B03DB15AE8917002FE9DB /* Random Movement - She Dont Get It (sample).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Random Movement - She Dont Get It (sample).mp3"; sourceTree = "<group>"; };
+		C64B03DD15AE892B002FE9DB /* Demarkus Lewis - Hustler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Demarkus Lewis - Hustler.mp3"; sourceTree = "<group>"; };
+		C6CB953F15ACA6C50012E768 /* Jul12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jul12.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CB954315ACA6C50012E768 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6CB954515ACA6C50012E768 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6CB954715ACA6C50012E768 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6CB954B15ACA6C50012E768 /* Jul12-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jul12-Info.plist"; sourceTree = "<group>"; };
+		C6CB954D15ACA6C50012E768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6CB954F15ACA6C50012E768 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6CB955115ACA6C50012E768 /* Jul12-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jul12-Prefix.pch"; sourceTree = "<group>"; };
+		C6CB955215ACA6C50012E768 /* Jul12AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jul12AppDelegate.h; sourceTree = "<group>"; };
+		C6CB955315ACA6C50012E768 /* Jul12AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jul12AppDelegate.m; sourceTree = "<group>"; };
+		C6FD559615AEAB7400005356 /* Robert Palmer short.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Robert Palmer short.m4v"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6CB953C15ACA6C50012E768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64B03DA15AE81E0002FE9DB /* AVFoundation.framework in Frameworks */,
+				C64B03C415AE36CA002FE9DB /* MediaPlayer.framework in Frameworks */,
+				C6CB954415ACA6C50012E768 /* UIKit.framework in Frameworks */,
+				C6CB954615ACA6C50012E768 /* Foundation.framework in Frameworks */,
+				C6CB954815ACA6C50012E768 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6CB953415ACA6C40012E768 = {
+			isa = PBXGroup;
+			children = (
+				C6FD559615AEAB7400005356 /* Robert Palmer short.m4v */,
+				C64B03DD15AE892B002FE9DB /* Demarkus Lewis - Hustler.mp3 */,
+				C64B03DB15AE8917002FE9DB /* Random Movement - She Dont Get It (sample).mp3 */,
+				C64B03C115AE366A002FE9DB /* NI - Traktor Pro 2 teaser short.m4v */,
+				C64B03BA15AE1940002FE9DB /* SubView.h */,
+				C64B03BB15AE1940002FE9DB /* SubView.m */,
+				C64B03B615AE1120002FE9DB /* MasterView.h */,
+				C64B03B715AE1120002FE9DB /* MasterView.m */,
+				C6CB954915ACA6C50012E768 /* Jul12 */,
+				C6CB954215ACA6C50012E768 /* Frameworks */,
+				C6CB954015ACA6C50012E768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6CB954015ACA6C50012E768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6CB953F15ACA6C50012E768 /* Jul12.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6CB954215ACA6C50012E768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C64B03D915AE81E0002FE9DB /* AVFoundation.framework */,
+				C64B03C315AE36CA002FE9DB /* MediaPlayer.framework */,
+				C6CB954315ACA6C50012E768 /* UIKit.framework */,
+				C6CB954515ACA6C50012E768 /* Foundation.framework */,
+				C6CB954715ACA6C50012E768 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6CB954915ACA6C50012E768 /* Jul12 */ = {
+			isa = PBXGroup;
+			children = (
+				C6CB955215ACA6C50012E768 /* Jul12AppDelegate.h */,
+				C6CB955315ACA6C50012E768 /* Jul12AppDelegate.m */,
+				C6CB954A15ACA6C50012E768 /* Supporting Files */,
+			);
+			path = Jul12;
+			sourceTree = "<group>";
+		};
+		C6CB954A15ACA6C50012E768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6CB954B15ACA6C50012E768 /* Jul12-Info.plist */,
+				C6CB954C15ACA6C50012E768 /* InfoPlist.strings */,
+				C6CB954F15ACA6C50012E768 /* main.m */,
+				C6CB955115ACA6C50012E768 /* Jul12-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6CB953E15ACA6C50012E768 /* Jul12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CB955715ACA6C50012E768 /* Build configuration list for PBXNativeTarget "Jul12" */;
+			buildPhases = (
+				C6CB953B15ACA6C50012E768 /* Sources */,
+				C6CB953C15ACA6C50012E768 /* Frameworks */,
+				C6CB953D15ACA6C50012E768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jul12;
+			productName = Jul12;
+			productReference = C6CB953F15ACA6C50012E768 /* Jul12.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6CB953615ACA6C40012E768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Jul12;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C6CB953915ACA6C40012E768 /* Build configuration list for PBXProject "Jul12" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6CB953415ACA6C40012E768;
+			productRefGroup = C6CB954015ACA6C50012E768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6CB953E15ACA6C50012E768 /* Jul12 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6CB953D15ACA6C50012E768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CB954E15ACA6C50012E768 /* InfoPlist.strings in Resources */,
+				C64B03C215AE366A002FE9DB /* NI - Traktor Pro 2 teaser short.m4v in Resources */,
+				C64B03DC15AE8917002FE9DB /* Random Movement - She Dont Get It (sample).mp3 in Resources */,
+				C64B03DE15AE892B002FE9DB /* Demarkus Lewis - Hustler.mp3 in Resources */,
+				C6FD559715AEAB7400005356 /* Robert Palmer short.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6CB953B15ACA6C50012E768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CB955015ACA6C50012E768 /* main.m in Sources */,
+				C6CB955415ACA6C50012E768 /* Jul12AppDelegate.m in Sources */,
+				C64B03B815AE1120002FE9DB /* MasterView.m in Sources */,
+				C64B03BC15AE1940002FE9DB /* SubView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6CB954C15ACA6C50012E768 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6CB954D15ACA6C50012E768 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6CB955515ACA6C50012E768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6CB955615ACA6C50012E768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6CB955815ACA6C50012E768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jul12/Jul12-Prefix.pch";
+				INFOPLIST_FILE = "Jul12/Jul12-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6CB955915ACA6C50012E768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jul12/Jul12-Prefix.pch";
+				INFOPLIST_FILE = "Jul12/Jul12-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6CB953915ACA6C40012E768 /* Build configuration list for PBXProject "Jul12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CB955515ACA6C50012E768 /* Debug */,
+				C6CB955615ACA6C50012E768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CB955715ACA6C50012E768 /* Build configuration list for PBXNativeTarget "Jul12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CB955815ACA6C50012E768 /* Debug */,
+				C6CB955915ACA6C50012E768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6CB953615ACA6C40012E768 /* Project object */;
+}
